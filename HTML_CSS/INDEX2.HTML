@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clase N1</title>
+<link rel="stylesheet" href="./css/style.css">
+</head>
+
+
+
+<body>
+    <header>
+        <!-- Estructura Semántica -->
+        <h1>Darkweb</h1>
+        <nav>
+            <ul>
+                <li><a href="https://www.google.com" target="_blank">Inicio</a></li>
+                <li><a href="#">Reseñas</a></li>
+                <li><a href="#">Contacto</a></li>
+
+            </ul>
+        </nav>
+    </Header>
+
+
+
+    <Main>
+        <section>
+            <h2>Música de Vanguardia</h2>
+                    <article>
+                <header>
+                    <h3>Nuevas bandas Minimal/Darkwave</h3>
+                    <p>publicado por
+                    <span>Vampire</span>
+                    </p>
+                </header>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
+                <figure>
+                    <img src="./assets/img/boyharsher.jpg" width="400" height="300" alt="Boy Harsher">
+                    
+                    <figcaption>Boy Harsher</figcaption>
+                </figure>
+                <blockquote>"Speak of the devil and she will appear"</blockquote>
+            </article>
+        </section>
+
+        <!-- Semántica a través de línea (o texto) -->
+        <section>
+            <h2>Formatos de Texto</h2>
+            <p><strong><u>Atención:</u> El evento comienza pronto.</strong></p>
+            <p><em>No te quedes afuera</em></p>
+            <p>El resultado de busqueda para: <mark>HTML5   </mark></p>
+            <p>La clase es el <time datetime="2025-11-20 09:00"></time> 20 de Noviembre a las 09:00</p> 
+            <p><small>Sujeto a términos</small></p>
+            
+
+            <blockquote>
+            <pre>
+                <code>
+                    Ejemplo de constante numérica
+const NUMERO_MAXIMO = 100;
+console.log(NUMERO_MAXIMO); Salida: 100
+
+                </code>
+            </pre>
+            </blockquote>
+            </section>
+
+        
+<!-- Multimedia -->
+        <section>
+            <h2>Galería Multimedia</h2>
+            <h3>imagen responsiva</h3>
+                <align-center>
+                    <figure>
+            <picture>
+                <source media="(min-width:400px)" srcset="./assets/img/images.webp">
+                <img src="./assets/img/Images2.jpg" alt="imagen2">
+            </picture>
+            </align-center>
+            </figure>
+                </section>
+
+            
+            <section>
+            <h2>Video Nativo</h2>
+            <video controls width="400">
+            <source src="./assets/videos/Boy Harsher - Last Days (Official Video).mp4" type="video/mp4">
+            Tu navegador No soporta videos.
+            </video>
+            </section>
+
+            
+            <section>
+            <h2>Audio</h2>
+            <audio controls>
+                        <source src="./assets/audio/Boy Harsher - Give Me a Reason (Official Audio).mp3" type="audio/mp3">
+            </audio>
+            </section>
+
+            <section>
+            <h2>Mapa</h2>
+                <iframe 
+                src="https://www.google.com/maps/embed?..." 
+                width="400" height="300"
+                loading="lazy"
+            ></iframe>
+            </section>
+
+            <!-- Tabla -->
+            <section>
+                <h2>Reporte de Ventas</h2>
+                     <table border="1">
+                    <caption>Ventas Anuales por Sucursal 2025</caption>
+
+                    <thead>
+                        <tr>
+                            <th scope="col">Sucursal</th>
+                            <th scope="col">Producto A</th>
+                            <th scope="col">Producto B</th>
+                        </tr>
+                    </thead>
+
+
+                    <tbody>
+                        <th scope="row">Zona Norte</th>
+                        <td>Valor 1</td>
+                        <td>Valor 2</td>
+                    </tbody>
+
+                    <tbody>
+                        <th scope="row">Zona Sur</th>
+                        <td>Valor 1</td>
+                        <td>Valor 2</td>
+                    </tbody>
+
+                    <tfoot></tfoot>
+                    <th scope="row">Totales</th>
+                    <td>Res1</td>
+                    <td>Res2</td>
+                
+
+                </Table>
+                </section>
+
+                <!-- Formularios -->
+                <section>
+                    <h2>Registro de Usuarios</h2>
+                    <form action="/registro" method="post">
+                    <fieldset>
+                        <legend>Datos Personales</legend>
+                        <div>
+                        <label for= "nombre">Nombre completo</label>
+                        <input type="text" id="nombre" name="nombre" placeholder="Ingrese Nombre" required>
+                        </div>
+
+                        </div>
+                        <label for="email">Correo electrónico</label>
+                        <input type="email" id="email" placeholder="Ingrese Correo" required>
+                        </div>
+                            </fieldset>
+
+                        <button type="submit">Enviar</button>
+                        <button type="reset">Borrar</button>
+                            </form>
+
+        </section>
+        <aside>
+            <section>
+            <h3>Publicidad</h3>
+           <a href="#"><p>Compra AQUÍ tu curso de Síntesis</p></a>
+           </section>
+        </aside>
+    </Main>
+    <footer>
+        <p>&copy;2025 Clase de desarrollo web</p>
+    </footer>
+
+</body>
+
+</html>
+
+
+
+<!-- Etiquetas 
+ p> :párrafo
+ section : sección
+ aside : sección de contenido relacionado pero independiente, puede ser un menú lateral.
+ div : contenedor generico
+ header:cabecera
+ main: contenido principal/central
+ footer : pie 
+ body : cuerpo del html, contenido visible.
+ -->
+ 
