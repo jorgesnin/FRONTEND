@@ -4,3 +4,4 @@ function ir_Arriba() {
     behavior: "smooth" 
   });
 }
+console.log("el boton envía arriba");
